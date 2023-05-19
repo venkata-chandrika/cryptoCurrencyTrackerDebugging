@@ -1,0 +1,32 @@
+/* Write your CSS code here */
+.item-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  list-style: none;
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+.value-container {
+  align-self: flex-start;
+}
+.logo {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+.last {
+  display: flex;
+}
+.heading {
+  font-size: 20px;
+  color: #ffffff;
+}
+.value {
+  color: #ffffff;
+  font-size: 18px;
+  margin: 20px;
+}

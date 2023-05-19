@@ -1,0 +1,51 @@
+/* Write your CSS here */
+.tracker-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #000000;
+  align-items: center;
+  min-height: 100vh;
+
+  background-size: cover;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.currency-list-container {
+  width: 90%;
+}
+.heading {
+  color: #00e7ff;
+  text-align: center;
+}
+.list-container {
+  border-radius: 10px;
+  display: flex;
+  padding: 0px;
+  flex-direction: column;
+
+  align-items: stretch;
+  border: 2px solid #00e7ff;
+  min-height: 50vh;
+}
+.header-conatiner {
+  display: flex;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  justify-content: space-between;
+  background-color: #092e33;
+  padding-left: 40px;
+  color: #ffffff;
+  width: 100%;
+}
+.currency {
+  width: 80%;
+  text-align: center;
+}
+.value-container {
+  display: flex;
+  align-items: center;
+}
+.value {
+  text-align: right;
+}
